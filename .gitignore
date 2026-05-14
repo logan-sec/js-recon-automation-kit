@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Recon input/output files
+*.har
+recon_*/
+output/
+outputs/
+results/
+*.log
+
+# Tool output
+lf_out.txt
+sf_out.txt
+gf_out.txt
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
