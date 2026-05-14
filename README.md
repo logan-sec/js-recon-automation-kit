@@ -29,3 +29,5 @@ A helper script for testing possible secrets found during JavaScript recon.
 
 ```bash
 python3 scripts/har_recon.py target.har
+
+bash scripts/test_all_keys.sh recon_target/sf_out.txt
