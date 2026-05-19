@@ -25,9 +25,10 @@ Takes a `.har` file and creates an organized recon folder containing:
 
 A helper script for testing possible secrets found during JavaScript recon.
 
-## Basic Usage
+## Quickstart
 
 ```bash
-python3 scripts/har_recon.py target.har
-
-bash scripts/test_all_keys.sh recon_target/sf_out.txt
+git clone https://github.com/logan-sec/js-recon-automation-kit.git
+cd js-recon-automation-kit
+pip install -r requirements.txt
+python3 scripts/har_recon.py examples/example.har
