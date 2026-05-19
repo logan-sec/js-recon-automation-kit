@@ -98,9 +98,9 @@ python3 scripts/har_recon.py target.har --output recon_target
 1. Open the target in your browser
 2. Open DevTools
 3. Go to the Network tab
-4. Enable Preserve log
-5. Browse important app flows
-6. Right-click the Network requests
+4. Click JS
+5. Enable Preserve log
+6. Browse important app flows
 7. Export as HAR
 8. Run the HAR through this kit
 
