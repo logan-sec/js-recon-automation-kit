@@ -1,0 +1,19 @@
+# OAUTH REDIRECTS — 3 matches
+# ========================================================
+
+── 0001_app.js ───────────────────────────────────────────
+
+  Line 103:
+      102 | const redirectUri =
+  >>  103 | "https://example.com/oauth/callback"
+      104 | 
+
+  Line 109:
+      108 | const next =
+  >>  109 | new URLSearchParams(location.search).get("redirect")
+      110 | 
+
+  Line 111:
+      110 | if (next) {
+  >>  111 | window.location.href = next
+      112 | }
