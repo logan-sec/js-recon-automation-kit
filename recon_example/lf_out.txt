@@ -1,1 +1,26 @@
-fill in
+============================================================
+FILE: recon_example/js/0001_app.js
+============================================================
+
+/api/v1/users/me
+/api/v1/account/settings
+/api/v1/users/{userId}
+/api/v1/billing/invoices
+/api/v1/billing/invoices/{invoiceId}
+/internal/graphql
+/api/v1/export/csv
+/webhooks/stripe/callback
+/api/v1/admin/users
+https://example.com/oauth/callback
+
+============================================================
+FILE: recon_example/js/0002_dashboard.js
+============================================================
+
+/api/v1/admin/users
+/api/v1/admin/roles
+/api/v1/admin/audit-log
+/api/v1/accounts/{accountId}/settings
+/api/v1/export/csv
+/webhooks/stripe/callback
+/internal/graphql
