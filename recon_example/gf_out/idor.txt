@@ -1,0 +1,21 @@
+# IDOR — 4 matches
+# ========================================================
+
+── 0001_app.js ───────────────────────────────────────────
+
+  Line 51:
+       50 | function getUser(userId) {
+  >>   51 | return fetch("/api/v1/users/" + userId)
+       52 | }
+
+  Line 77:
+       76 | function getInvoice(invoiceId) {
+  >>   77 | return fetch("/api/v1/billing/invoices/" + invoiceId)
+       78 | }
+
+── 0002_dashboard.js ─────────────────────────────────────
+
+  Line 33:
+       32 | const accountId = params.get("account_id")
+  >>   33 | fetch("/api/v1/accounts/" + accountId + "/settings")
+       34 | 
