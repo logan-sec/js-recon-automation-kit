@@ -46,6 +46,17 @@ recon_target/
     ├── rce.txt
     └── lfi.txt
 ```
+## Example Output Note
+
+The `recon_example/` folder contains fake sample output to show what a completed run looks like.
+
+Real output will usually be much noisier.
+
+Files like `lf_out.txt`, `sf_out.txt`, and `gf_out/` are review buckets, not confirmed vulnerabilities. Expect false positives, weird strings, framework noise, duplicate endpoints, and low-value matches.
+
+The point of this kit is not to make recon perfect.
+
+The point is to organize messy JavaScript recon so manual review is easier.
 
 ---
 
