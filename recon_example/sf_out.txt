@@ -1,1 +1,21 @@
-fill in
+============================================================
+FILE: recon_example/js/0001_app.js
+============================================================
+
+[ + ] URL: file:///recon_example/js/0001_app.js
+
+google_api -> AIzaSyD_FAKE_EXAMPLE_KEY_DO_NOT_USE_123456789
+twilio_account_sid -> AC00000000000000000000000000000000
+twilio_auth_token -> 00000000000000000000000000000000
+heroku_api_key -> FAKE-HEROKU-KEY-DO-NOT-USE-000000000000
+
+============================================================
+FILE: recon_example/js/0002_dashboard.js
+============================================================
+
+[ + ] URL: file:///recon_example/js/0002_dashboard.js
+
+authorization_api -> API_KEYS_MODAL_HEADER
+authorization_api -> API_KEYS_SUCCESS_MODAL_MESSAGE
+authorization_basic -> BasicExampleString
+square_access_token -> sq0atp-FAKE_EXAMPLE_TOKEN_DO_NOT_USE
