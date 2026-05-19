@@ -44,3 +44,12 @@ python3 scripts/har_recon.py examples/example.har
 6. Export HAR file
 7. Run the kit
 8. Manually review endpoints, secrets, and gf output
+```
+
+## Common Issues
+
+### `ModuleNotFoundError`
+Run:
+
+```bash
+pip install -r requirements.txt
