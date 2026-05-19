@@ -32,3 +32,15 @@ git clone https://github.com/logan-sec/js-recon-automation-kit.git
 cd js-recon-automation-kit
 pip install -r requirements.txt
 python3 scripts/har_recon.py examples/example.har
+```
+```md
+## Basic Workflow
+
+1. Open target in browser
+2. Open DevTools → Network
+3. Click JS
+4. Enable Preserve log
+5. Browse important app flows
+6. Export HAR file
+7. Run the kit
+8. Manually review endpoints, secrets, and gf output
