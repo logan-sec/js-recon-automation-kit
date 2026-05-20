@@ -8,6 +8,13 @@
 SF_FILE="${1:-sf_out.txt}"
 OUT_DIR="${2:-.}"
 
+if [ ! -f "$SF_FILE" ]; then
+    echo "[!] SecretFinder output file not found: $SF_FILE"
+    exit 1
+fi
+
+mkdir -p "$OUT_DIR"
+
 # Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
