@@ -231,6 +231,11 @@ Current `requirements.txt`:
 ```txt
 jsbeautifier>=1.15.1
 ```
+Required for best beautification:
+
+```bash
+npm install -g prettier
+```
 
 System tools used by the kit:
 
