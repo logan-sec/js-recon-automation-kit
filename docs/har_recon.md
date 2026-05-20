@@ -88,8 +88,8 @@ python3 scripts/har_recon.py target.har \
 2. Open DevTools
 3. Go to the Network tab
 4. Enable Preserve log
-5. Browse important app flows
-6. Right-click the requests
+5. Click JS
+6. Browse important app flows
 7. Export as HAR
 8. Run the HAR through this script
 
