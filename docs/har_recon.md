@@ -253,15 +253,13 @@ pip install -r requirements.txt
 
 ### Prettier not found
 
-Prettier is optional.
+Prettier is strongly recommended. Without it, some large or heavily minified JavaScript files may not format cleanly.
 
 Install it with:
 
 ```bash
-sudo npm install -g prettier
+npm install -g prettier
 ```
-
-If Prettier is missing, the script will still try to use `jsbeautifier`.
 
 ---
 
