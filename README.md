@@ -198,6 +198,16 @@ This script is for triage, not exploitation.
 
 ---
 
+## V1 Note
+
+This is the first version of the kit.
+
+Expect noisy output, false positives, and rough edges.
+
+The goal of V1 is to organize JavaScript recon output for manual review, not to produce perfect results automatically.
+
+---
+
 ## Planned for V2
 
 ### Surface Recon Script
